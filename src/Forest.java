@@ -1,7 +1,7 @@
 public class Forest {
-    public Tree tree;
+    public Animal animal;
 
-    public Forest(Tree tree) {
-        this.tree = tree;
+    public Forest(Animal animal) {
+        this.animal = animal;
     }
 }
