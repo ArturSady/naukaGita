@@ -1,7 +1,14 @@
 public class Forest {
-    public Animal animal;
+  public Tree tree;
 
-    public Forest(Animal animal) {
-        this.animal = animal;
+    public Forest(Tree tree) {
+        this.tree = tree;
+    }
+
+    @Override
+    public String toString() {
+        return "Forest{" +
+                "tree=" + tree +
+                '}';
     }
 }

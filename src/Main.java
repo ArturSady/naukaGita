@@ -1,5 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        Forest forest = new Forest(new Tree(new Animal()));
+        System.out.println(forest);
     }
 }
